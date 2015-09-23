@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dip"
+        android:layout_marginLeft="12.0dip"
+        android:text="请输入您的邮箱：" />
+
+    <EditText
+        android:id="@+id/edit_mail"
+          android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginRight="12.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@android:color/white"
+        android:drawableLeft="@android:color/background_dark"
+        android:drawablePadding="15.0dip"
+        android:hint="请输入邮箱....."
+        android:inputType="textPassword"
+        android:paddingBottom="2.0dip"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="15.0dip"
+        android:paddingTop="2.0dip"
+        android:singleLine="true"
+        android:textColorHint="#ff999999"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:layout_marginLeft="12.0dip"
+        android:text="请输入您的密码：" />
+
+    <EditText
+        android:id="@+id/edit_passwordFis"
+         android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginRight="12.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@android:color/white"
+        android:drawableLeft="@android:color/background_dark"
+        android:drawablePadding="15.0dip"
+        android:hint="**********"
+        android:inputType="textPassword"
+        android:paddingBottom="2.0dip"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="15.0dip"
+        android:paddingTop="2.0dip"
+        android:singleLine="true"
+        android:textColorHint="#ff999999"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:layout_marginLeft="12.0dip"
+        android:text="再次输入密码：" />
+
+    <EditText
+        android:id="@+id/edit_passwordSec"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginRight="12.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@android:color/white"
+        android:drawableLeft="@android:color/background_dark"
+        android:drawablePadding="15.0dip"
+        android:hint="**********"
+        android:inputType="textPassword"
+        android:paddingBottom="2.0dip"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="15.0dip"
+        android:paddingTop="2.0dip"
+        android:singleLine="true"
+        android:textColorHint="#ff999999"
+        android:textSize="16.0sp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginRight="12.0dip"
+        android:background="@drawable/btn_select"
+        android:singleLine="true"
+        android:text="注册"
+        android:textColor="#ffffffff"
+        android:textSize="18.0sp" />
+
+</LinearLayout>
